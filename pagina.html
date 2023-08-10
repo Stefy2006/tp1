@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>mi pagina</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="java.js"></script>
+</head>
+<body>
+   
+    <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página</title>
+  <style>
+    /* Estilos CSS */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    button {
+      padding: 10px 20px;
+      background-color: #81b683;
+      color: rgb(0, 0, 0);
+      border: none;
+      cursor: pointer;
+    }
+
+    #message {
+      margin-top: 20px;
+      display: none;
+      background-color: #f39494;
+      padding: 10px;
+    }
+  </style>
+  <script>
+    // JavaScript
+    function showMessage() {
+      var messageElement = document.getElementById("message");
+      messageElement.style.display = "block";
+    }
+  </script>
+</head>
+<body>
+  <h1>Mi página</h1>
+
+  <button onclick="showMessage()">Mostrar mensaje</button>
+
+  <div id="message">
+    <p><!DOCTYPE html>
+        <html lang="es">
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Página Random</title>
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+              text-align: center;
+            }
+        
+            h1 {
+              color: #070000;
+            }
+        
+            p {
+              color: #000000;
+            }
+        
+            .random-image {
+              width: 300px;
+              margin: 20px auto;
+            }
+          </style>
+        </head>
+        <body>
+          <h1>Página Random</h1>
+        
+          <p>las ideas brillantes hacen un mejor futuro:</p>
+        
+          <img class="random-image" src="https://lamenteesmaravillosa.com/wp-content/uploads/2013/02/creatividad.jpg" alt="ideas">
+        
+          <p>piensa en una idea para que en un futuro puedas volver aqui y veas cual fue tu idea</p>
+        </body>
+        </html>
+        </p>
+  </div>
+
+  <!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escribir y guardar texto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #inputText {
+      width: 300px;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    #savedText {
+      width: 300px;
+      height: 100px;
+      border: 1px solid #ccc;
+      padding: 10px;
+      overflow: auto;
+      margin: 0 auto;
+    }
+  </style>
+  <script>
+    function saveText() {
+      var inputElement = document.getElementById("inputText");
+      var savedTextElement = document.getElementById("savedText");
+
+      var text = inputElement.value;
+      savedTextElement.innerHTML += "<p>" + text + "</p>";
+
+      inputElement.value = "";
+    }
+  </script>
+</head>
+<body>
+  <h1>Escribir y guardar texto</h1>
+
+  <input type="text" id="inputText" placeholder="Escribe algo">
+  <button onclick="saveText()">Guardar</button>
+
+  <div id="savedText"></div>
+</body>
+</html>
+
+
+</body>
+</html>
+
